@@ -1,14 +1,17 @@
+*{
+    margin: 0;
+}
 div{
-    padding: 200px;
+    
+    
     text-align: center;
-    margin-bottom: 10px;
-    color: #060918;
+    margin-bottom: 0;
+    viewport-fit: 100;
+    
 }
 .introduction{
-    background-color: #4455b8;
-    text-align: left;
-    border:none;
-    margin:none ;
+    background-color: #1f2937;
+    text-align: center;
 }
 .randominfo {
     background-color: aliceblue;
@@ -19,5 +22,56 @@ div{
 }
 
 .links{
-    background-color: #4455b8;
+    background-color: #1f2937;
+}
+
+.linked{
+    position: top;
+    color: white;
+}
+
+
+.nav-links{
+    
+justify-content: flex-end;
+   margin: 0 0 0 auto;
+}
+.mad-links ul{
+    gap: 10px;
+}
+.mad-links li{
+    color: white;
+    display: inline;
+}
+
+nav{
+    display: flex;
+    
+}
+a{
+    padding-right: 10px;
+    color: white;
+    
+}
+a:hover {
+	color: #0EBEFF;
+}
+h2{
+    padding-left: 40px;
+}
+p{
+    color: white;
+}
+h1{
+    color: white;
+}
+.hero{
+    display: flex;
+
+
+}
+.button{
+    background-color: darkblue;
+    color: white;
+    padding: 2px 5px 5px 2px;
 }
